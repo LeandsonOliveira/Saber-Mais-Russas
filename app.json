@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Saber +",
-    "slug": "Saber_+_Russas",
+    "slug": "SaberMaisRussas",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,7 +20,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.youeduc.saber+",
+      "package": "com.youeduc.sabermais",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",

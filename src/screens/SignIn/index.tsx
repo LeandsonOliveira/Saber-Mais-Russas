@@ -2,8 +2,7 @@ import React, { useCallback } from "react";
 import { View, Image, StatusBar, Linking, Alert, ImageBackground } from 'react-native';
 
 import ImgFundo from '../../assets/imgFundo.png';
-import LogoHorizonte from '../../assets/logoHorizonte.png';
-import LogoCidEduc from '../../assets/logoCidEduc.png';
+import LogoRussas from '../../assets/logoRussas.png';
 import IllustrationImg from '../../assets/illustration.png';
 import Menina from '../../assets/menina.png';
 import Menino from '../../assets/menino.png';
@@ -35,20 +34,15 @@ export function SignIn() {
         />
         <View style={styles.logos} >
           <Image
-            style={styles.logoHorizonte}
-            source={LogoHorizonte}
-            resizeMode="stretch"
-          />
-          <Image
-            style={styles.logoCidEduc}
-            source={LogoCidEduc}
+            style={styles.logoRussas}
+            source={LogoRussas}
             resizeMode="stretch"
           />
         </View>
         <View style={styles.illustrationClic}>
           <View>
             <Image
-              style={styles.clic}
+              style={styles.saber}
               source={IllustrationImg}
               resizeMode="stretch"
             />

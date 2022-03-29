@@ -16,35 +16,32 @@ export const styles = StyleSheet.create({
     marginTop: 50,
     justifyContent: 'center'
   },
-  logoHorizonte:{
+  logoRussas:{
     width: 160,
     height: 80
-  },
-  logoCidEduc:{
-    width: 160,
-    height: 60,
-    marginLeft: 10
   },
   illustrationClic:{
     flex: 3,
     justifyContent: 'center',
   },
-  clic: {    
+  saber: {    
     alignSelf: 'center',
-    width: 320,
-    height: 190,
+    width: 250,
+    height: 150,
+
   },
   meninaMenino:{
     flex: 1,
     flexDirection: "row",
     justifyContent: 'space-around',
+    marginTop: 50,
   },
   menina:{
-    width: 130,
+    width: 120,
     height: 200
   },
   menino:{
-    width: 110,
+    width: 150,
     height: 200
   },
   content: {
