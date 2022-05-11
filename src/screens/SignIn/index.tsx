@@ -1,11 +1,7 @@
 import React, { useCallback } from "react";
-import { View, Image, StatusBar, Linking, Alert, ImageBackground } from 'react-native';
+import { View, StatusBar, Linking, Alert, ImageBackground } from 'react-native';
 
 import ImgFundo from '../../assets/imgFundo.png';
-import LogoRussas from '../../assets/logoRussas.png';
-import IllustrationImg from '../../assets/illustration.png';
-import Menina from '../../assets/menina.png';
-import Menino from '../../assets/menino.png';
 import { styles } from "./styles";
 import { ButtonIcon } from "../../components/Buttonicon";
 
@@ -32,34 +28,6 @@ export function SignIn() {
           backgroundColor="transparent"
           translucent
         />
-        <View style={styles.logos} >
-          <Image
-            style={styles.logoRussas}
-            source={LogoRussas}
-            resizeMode="stretch"
-          />
-        </View>
-        <View style={styles.illustrationClic}>
-          <View>
-            <Image
-              style={styles.saber}
-              source={IllustrationImg}
-              resizeMode="stretch"
-            />
-          </View>
-          <View style={styles.meninaMenino}>
-            <Image
-              style={styles.menina}
-              source={Menina}
-              resizeMode="stretch"
-            />
-            <Image
-              style={styles.menino}
-              source={Menino}
-              resizeMode="stretch"
-            />
-          </View>
-        </View>
         <View style={styles.content}>
           <ButtonIcon title="Acessar Plataforma"
             activeOpacity={0.3}
