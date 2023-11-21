@@ -2,7 +2,7 @@
   "expo": {
     "name": "Saber +",
     "slug": "SaberMaisRussas",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -21,7 +21,7 @@
     },
     "android": {
       "package": "com.youeduc.sabermais",
-      "versionCode": 1,
+      "versionCode": 4,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -30,6 +30,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c7cbeb78-9fea-4573-aef8-4d00380e820d"
+      }
     }
   }
 }
